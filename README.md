@@ -1,38 +1,18 @@
 # Aerosol_CDT_summer_training
 
-# 📘 Medical Imaging Classification & Retrieval-Augmented Generation & M
+This repository contains hands-on notebooks focused on:
 
-This repository contains hands-on notebooks focused on two complementary areas of applied machine learning:
+## 🔍 Retrieval-Augmented Generation (RAG) with Language Models
 
-## 🧠 1. Medical Imaging with Deep Learning & Transfer Learning
-
-Work through the complete pipeline of classifying chest X-ray images using convolutional neural networks and transfer learning. This includes:
-
-- Data loading and preprocessing from the COVID‑19 Radiography dataset
-- Model training using Keras (CNNs & EfficientNet/MobileNet)
-- Evaluation with Grad-CAM and confusion matrices
-- Hyperparameter tuning with Keras Tuner
-
-> 📌 **Notebook**: `Radiography_classifier-2.ipynb`
->
-> 🖼️ **Dataset Access Notice**  
-The radiography dataset used in this project will be **provided privately during the CDT programme** and must **not be redistributed or shared** publicly.
-> If you wish to access it independently, the dataset is publicly available at:  
-👉 https://www.kaggle.com/datasets/tawsifurrahman/covid19-radiography-database
-
----
-
-## 🔍 2. Retrieval-Augmented Generation (RAG) with Language Models
-
-Explore how to build an intelligent RAG pipeline that can retrieve relevant documents and generate accurate, grounded responses using state-of-the-art language models. The notebook walks through:
+Here we explore how to build an intelligent RAG pipeline that can retrieve relevant documents and generate accurate, grounded responses using state-of-the-art language models. The notebook walks through:
 
 - Text embeddings and vector stores (e.g., FAISS)
 - Prompt construction and document retrieval
 - End-to-end integration with RAG-style pipelines
 
-> 📌 **Notebook**: `RAG_example-2.ipynb`
+> 📌 **Notebook**: `RAG_example.ipynb`
 
-> 📄 *Note: Academic PDF content used in this example will be shared during the CDT. Details and citations will be added here.*
+> 📄 *Note: Academic PDF content used in this example will be shared during the course as they cannot be made publicly available.*
 
 ---
 
@@ -50,7 +30,7 @@ By clicking on the Google Colab link below it will take you to the Google Colab 
 
 Once complete you can then run through the course material from your Google account. 
 
-- [![Open notebook In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/loftytopping/Aerosol_CDT_summer_training/blob/master/Setup_GoogleColab.ipynb)
+- [![Open notebook In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/loftytopping/RAG_training/blob/master/Setup_GoogleColab.ipynb)
 
 **when accessing Colab you will need to specify a GPU runtime**
 
